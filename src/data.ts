@@ -363,6 +363,7 @@ type Product = {
     desc?: string;
     img?: string;
     color: string;
+    buttonColor:string
   }[];
   
   export const menu: Menu = [
@@ -373,6 +374,7 @@ type Product = {
       desc: "Savor the taste of perfection with our exquisite Italian handmade pasta menu.",
       img: "/temporary/m1.png",
       color: "white",
+      buttonColor: "white",
     },
     {
       id: 2,
@@ -381,6 +383,7 @@ type Product = {
       desc: "Burger Bliss: Juicy patties, bold flavors, and gourmet toppings galore.",
       img: "/temporary/m2.png",
       color: "black",
+      buttonColor: "black",
     },
     {
       id: 3,
@@ -389,5 +392,6 @@ type Product = {
       desc: "Pizza Paradise: Irresistible slices, mouthwatering toppings, and cheesy perfection.",
       img: "/temporary/m3.png",
       color: "white",
+      buttonColor: "white",
     },
   ];
